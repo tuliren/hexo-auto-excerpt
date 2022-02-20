@@ -5,7 +5,7 @@ Next removes auto excerpt in [`v7.6.0`](https://github.com/theme-next/hexo-theme
 ## Install
 
 ```sh
-npm install --save @tuliren/hexo-plain-excerpt
+npm install --save hexo-plain-excerpt
 ```
 
 ## Option
