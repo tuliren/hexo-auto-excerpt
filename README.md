@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/hexo-plain-excerpt.svg)](https://badge.fury.io/js/hexo-plain-excerpt)
 
-Next removes auto excerpt in [`v7.6.0`](https://github.com/theme-next/hexo-theme-next/releases/tag/v7.6.0). Neither of the existing plugins are as good as the original one. This repo is forked from [`ashisherc/hexo-auto-excerpt`](https://github.com/ashisherc/hexo-auto-excerpt).
+[NexT](https://theme-next.js.org/) removes auto excerpt in [`v7.6.0`](https://github.com/theme-next/hexo-theme-next/releases/tag/v7.6.0). None of the existing plugins is as good as the original one. This repo aims to bring back the original NexT excerpt. It is modified from [`ashisherc/hexo-auto-excerpt`](https://github.com/ashisherc/hexo-auto-excerpt).
 
 ## Install
 
