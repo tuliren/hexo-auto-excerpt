@@ -11,6 +11,6 @@
   "author": "Ashish Prajapati",
   "license": "MIT",
   "dependencies": {
-    "html-to-text": "^3.3.0"
+    "html-to-text": "^8.1.0"
   }
 }
