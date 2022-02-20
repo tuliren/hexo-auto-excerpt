@@ -1,15 +1,16 @@
-const htmlToText = require('html-to-text');
+const { convert } = require('html-to-text');
 (function(){
     const sanitize = function (post) {
-        const content = htmlToText.fromString(
-            post,
-            {
-              ignoreImage: true,
-              ignoreHref: true,
-              wordwrap: false,
-              uppercaseHeadings: false,
-              itemPrefix: ''
-            },
+        const content = convert(
+            post,{
+              selectors: [
+                { selector: 'img', format: 'skip' },
+                { selector: 'a', options: { ignoreHref: true } },
+                { selector: 'ul', options: { itemPrefix: '' } }
+              ],
+              wordwrap: 150,
+              uppercaseHeadings: false
+            }
         );
         return content;
     }
