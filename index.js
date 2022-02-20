@@ -21,10 +21,14 @@ const { convert } = require('html-to-text');
     }
 
     hexo.extend.filter.register('after_post_render', function (data) {
+        if (data.excerpt.length > 0) {
+            return data;
+        }
+
         const excerptLength = hexo.config.excerpt_length || 150;
         const post = sanitize(data.content);
         const excerpt = post.substr(0, excerptLength);
-        data.excerpt = excerpt;
+        data.excerpt = excerpt + '...';
         return data;
     });
 })();

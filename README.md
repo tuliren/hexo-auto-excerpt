@@ -15,6 +15,8 @@ npm install --save hexo-auto-excerpt
 Here are the differences of this fork from the [original repo](https://github.com/ashisherc/hexo-auto-excerpt).
 - Update `html-to-text` to the latest version.
 - Replace the default item prefix (`*`) with a space.
+- Do nothing if excerpt already exists.
+- Add `...` at the end.
 
 ## License
 The original repo is published under the MIT [license](LICENSE).
