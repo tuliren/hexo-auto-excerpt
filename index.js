@@ -6,7 +6,7 @@ const { convert } = require('html-to-text');
               selectors: [
                 { selector: 'img', format: 'skip' },
                 { selector: 'a', options: { ignoreHref: true } },
-                { selector: 'ul', options: { itemPrefix: '' } }
+                { selector: 'ul', options: { itemPrefix: '-' } }
               ],
               wordwrap: 150,
               uppercaseHeadings: false
