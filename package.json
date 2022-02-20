@@ -4,6 +4,7 @@
   "repository": "git://github.com/tuliren/hexo-plain-excerpt.git",
   "homepage": "https://github.com/tuliren/hexo-plain-excerpt#readme",
   "description": "Hexo plugin to add auto excerpt on posts with configured number of characters",
+  "keywords": ["hexo", "next", "excerpt"],
   "main": "index.js",
   "author": "Ashish Prajapati, Liren Tu",
   "license": "MIT",
