@@ -1,11 +1,11 @@
-# hexo-auto-excerpt
+# `hexo-plain-excerpt`
 
 Next removes auto excerpt in [`v7.6.0`](https://github.com/theme-next/hexo-theme-next/releases/tag/v7.6.0). Neither of the existing plugins are as good as the original one. This repo is forked from [`ashisherc/hexo-auto-excerpt`](https://github.com/ashisherc/hexo-auto-excerpt).
 
 ## Install
 
 ```sh
-npm install --save hexo-auto-excerpt
+npm install --save @tuliren/hexo-plain-excerpt
 ```
 
 ## Option
