@@ -4,11 +4,12 @@ const htmlToText = require('html-to-text');
         const content = htmlToText.fromString(
             post,
             {
-                ignoreImage: true,
-                ignoreHref: true,
-                wordwrap: false,
-                uppercaseHeadings: false
-            }
+              ignoreImage: true,
+              ignoreHref: true,
+              wordwrap: false,
+              uppercaseHeadings: false,
+              itemPrefix: ''
+            },
         );
         return content;
     }
